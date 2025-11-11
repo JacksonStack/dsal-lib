@@ -1,0 +1,4 @@
+[submodule "dht-kademlia/dht-kademlia-rust"]
+	path = dht-kademlia/dht-kademlia-rust
+	url = https://github.com/JacksonStack/dht-kademlia-rust
+	branch = main
