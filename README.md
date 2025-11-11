@@ -1,1 +1,1 @@
-# dsal-lib
+In the beginning of my study of programming, I was told that I need to form a knowledge base of what I genuinely understand.
