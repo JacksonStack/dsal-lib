@@ -2,3 +2,7 @@
 	path = dht-kademlia/dht-kademlia-rust
 	url = https://github.com/JacksonStack/dht-kademlia-rust
 	branch = main
+[submodule "bloomfilter/bloomfilter-rust"]
+	path = bloomfilter/bloomfilter-rust
+	url = https://github.com/JacksonStack/bloomfilter-rust
+	branch = main
