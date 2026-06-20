@@ -6,3 +6,7 @@
 	path = bloomfilter/bloomfilter-rust
 	url = https://github.com/JacksonStack/bloomfilter-rust
 	branch = main
+[submodule "sort/merge-sort"]
+	path = sort/merge-sort
+	url = https://github.com/JacksonStack/merge-sort
+	branch = main
