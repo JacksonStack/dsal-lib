@@ -37,7 +37,14 @@ benchmark 参数依次为 N、维度、查询数、efSearch、k、重复次数�
 CSV 中 commit 通过 `HNSW_RESEARCH_COMMIT` 注入；未提供时为 unrecorded。
 查询计时排除构建、ground truth、recall、预热和结果销毁。
 小型随机数据只验证程序流程，不构成正式性能结论。
-CI 配置暂保存在子模块 `docs/ci.yml.example`，现有 GitHub 凭据缺少 workflow scope，尚未启用 Actions。
+CI 配置位于子模块 `.github/workflows/ci.yml`，覆盖格式、Clippy、测试、示例和小型 benchmark。
+初始行为提取提交由 `rustv-derived-baseline` 标签固定。算法修复与调度优化继续独立提交。
+
+## 本机 SSH
+
+JacksonStack 的本机 SSH 别名为 `github.com-per`，对应 `~/.ssh/js-mac`。
+主仓库 origin 和子模块本地 URL 使用该别名，共享 `.gitmodules` 仍保留 HTTPS，
+不让其他克隆环境依赖本机别名。其他机器执行 submodule sync 可能恢复共享 URL，这是正常行为。
 
 ## 下一阶段
 
