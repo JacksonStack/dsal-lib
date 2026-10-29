@@ -10,3 +10,7 @@
 	path = sort/merge-sort
 	url = https://github.com/JacksonStack/merge-sort
 	branch = main
+[submodule "hnsw/scheduling-rust"]
+	path = hnsw/scheduling-rust
+	url = https://github.com/JacksonStack/hnsw-scheduling-rust.git
+	branch = main
